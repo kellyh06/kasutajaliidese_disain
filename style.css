@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(199, 57, 88);
+    
+}
+
+h1 {
+    color: rgb(212, 14, 57);
+    font-size: 90px;
+}
+p {
+    margin-top: 30px;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    border: 6px solid rgb(212, 14, 57);
+    padding: 30px;
+}
+
+div {
+    text-align: center;
+    }
+
+button{
+    margin: 30px;
+    width: 350px;
+    height: 75px;
+}
+
+.avaleht img {
+    margin-top: 30px;
+}
+
+.hero {
+    box-shadow: 20px 20px 20px 20px rgba(78, 42, 42, 0.75);
+    background-color: rgb(252, 169, 183);
+}
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 15px;
+}
+.top-nav .nav-link {
+    color: black;
+    font-size: 25px;
+  }
+ 
+  
+  .top-nav .nav-link:hover {
+    color: #333;
+  }
+ 
+  
+  .top-nav .nav-link.active {
+    color: #000;
+  }
+ 
